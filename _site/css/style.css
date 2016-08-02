@@ -1,0 +1,32 @@
+#profilePic {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../img/profile.png);
+  width: 420px;
+  height: 315px;
+  border-radius: 50%;
+}
+
+#profilePic:hover {
+  background-image: url(../img/portfolio/joshExcited.png);
+}
+
+hr.star-light:after, header, #about {
+  background-color: #1884bc;
+}
+
+a, a.active, a:active, a:focus, a:hover {
+  color: #1884bc;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 132, 188, .9);
+}
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+  background: #1884bc;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+  color: #1884bc;
+}

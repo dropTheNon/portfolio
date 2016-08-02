@@ -1,108 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Start Bootstrap</title>
-    <description>Web Developer - Graphic Artist - User Experience Designer
+    <title>Josh McBroom</title>
+    <description>User-Focused Full-Stack Developer
 </description>
-    <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/</link>
-    <atom:link href="http://yourdomain.com/startbootstrap-freelancer-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jul 2016 16:41:50 -0400</pubDate>
-    <lastBuildDate>Tue, 05 Jul 2016 16:41:50 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 02 Aug 2016 16:21:27 -0700</pubDate>
+    <lastBuildDate>Tue, 02 Aug 2016 16:21:27 -0700</lastBuildDate>
+    <generator>Jekyll v3.2.0</generator>
     
       <item>
-        <title>Cabin</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>MagicButton</title>
+        <description>&lt;p&gt;The project I’m currently working on is &lt;a href=&quot;https://github.com/dropTheNon/magicButton&quot; target=&quot;_blank&quot;&gt;Magic Button&lt;/a&gt;, a one-click meal planning and grocery-list-making tool.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;List your favorite meals and add the ingredients you need for them - after that, planning your week’s meals and making the grocery list is as easy as one click!&lt;/p&gt;
+
+&lt;p&gt;Currently under construction.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 06 Feb 2016 15:08:10 -0500</pubDate>
-        <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/06/cabin.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/06/cabin.html</guid>
+        <pubDate>Tue, 02 Aug 2016 13:08:10 -0700</pubDate>
+        <link>http://yourdomain.com/mean/2016/08/02/magicButton.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/mean/2016/08/02/magicButton.html</guid>
         
         
-        <category>Design</category>
+        <category>MEAN</category>
         
       </item>
     
       <item>
-        <title>Cake</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>Ensemble News</title>
+        <description>&lt;p&gt;As part of a one-day team hackathon, my team built &lt;a href=&quot;https://github.com/dropTheNon/mean-hackathon&quot; target=&quot;_blank&quot;&gt;Ensemble News&lt;/a&gt; - search for any topic and receive relevant articles from numerous publications.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;For this project I served as full-stack developer.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 05 Feb 2016 15:08:10 -0500</pubDate>
-        <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/05/cake.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/05/cake.html</guid>
+        <pubDate>Thu, 28 Jul 2016 13:08:10 -0700</pubDate>
+        <link>http://yourdomain.com/hackathon/2016/07/28/ensembleNews.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hackathon/2016/07/28/ensembleNews.html</guid>
         
         
-        <category>Design</category>
+        <category>Hackathon</category>
         
       </item>
     
       <item>
-        <title>Circus</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>Squeaky Wheel</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://squeakywheel.herokuapp.com&quot; target=&quot;_blank&quot;&gt;SqueakyWheel&lt;/a&gt; was a group project we worked on as part of General Assembly’s 12-week Web Development Immersive. Our group created the digital version of a complaint box - users can create a complaint about a company or product, or “upvote” an existing complaint, and we send an email or tweet to the appropriate party on their behalf.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;For this project I served as our Project Manager and Git Master, as well as doing some back-end work.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 04 Feb 2016 15:08:10 -0500</pubDate>
-        <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/04/circus.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/04/circus.html</guid>
+        <pubDate>Sun, 17 Jul 2016 13:08:10 -0700</pubDate>
+        <link>http://yourdomain.com/ruby%20on%20rails/2016/07/17/squeakyWheel.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/ruby%20on%20rails/2016/07/17/squeakyWheel.html</guid>
         
         
-        <category>Design</category>
+        <category>Ruby on Rails</category>
         
       </item>
     
       <item>
-        <title>Game</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>CannaVis</title>
+        <description>&lt;p&gt;For a front-end project, I created &lt;a href=&quot;https://github.com/dropTheNon/front-end-hackathon&quot; target=&quot;_blank&quot;&gt;CannaVis&lt;/a&gt; to utilize data visualization and begin learning D3.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;CannaVis is a tool that helps cannabis businesses make better decisions through better understanding of data.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 03 Feb 2016 15:08:10 -0500</pubDate>
-        <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/03/game.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/03/game.html</guid>
+        <pubDate>Fri, 08 Jul 2016 13:08:10 -0700</pubDate>
+        <link>http://yourdomain.com/d3/2016/07/08/cannavis.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/d3/2016/07/08/cannavis.html</guid>
         
         
-        <category>Design</category>
+        <category>D3</category>
         
       </item>
     
       <item>
-        <title>Safe</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>GrassRoots Hackathon</title>
+        <description>&lt;p&gt;In May of 2015, I organized Seattle’s first hackathon for cannabis technology, &lt;a href=&quot;https://grassrootshackathon.com&quot; target=&quot;_blank&quot;&gt;GrassRoots Hackathon&lt;/a&gt;. Developers, designers, and “non-technicals” came together for a weekend of creativity and collaboration as they raced against the clock to try and launch a startup in a weekend.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;As the founder and lead organizer, I was responsible for the entirety of the event, including securing sponsors and venue, finding mentors and judges, and everything else that goes into organizing a weekend-long event.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 02 Feb 2016 15:08:10 -0500</pubDate>
-        <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/02/safe.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/02/safe.html</guid>
+        <pubDate>Sun, 31 May 2015 13:08:10 -0700</pubDate>
+        <link>http://yourdomain.com/event/2015/05/31/grassRootsHackathon.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/event/2015/05/31/grassRootsHackathon.html</guid>
         
         
-        <category>Design</category>
+        <category>Event</category>
         
       </item>
     
       <item>
-        <title>Submarine</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <title>Gropher</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot; target=&quot;_blank&quot;&gt;Gropher&lt;/a&gt; was a side project I pitched twice, at Startup Weekend and 3 Day Startup. Gropher was an on-demand grocery-shopping platform, letting users select a store, order ahead, and pick up their order without leaving their car.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;For this project, I served as project manager and business developer.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Feb 2016 15:08:10 -0500</pubDate>
-        <link>http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/01/submarine.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/startbootstrap-freelancer-jekyll/design/2016/02/01/submarine.html</guid>
+        <pubDate>Tue, 15 Apr 2014 13:08:10 -0700</pubDate>
+        <link>http://yourdomain.com/hackathon/2014/04/15/gropher.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/hackathon/2014/04/15/gropher.html</guid>
         
         
-        <category>Design</category>
+        <category>Hackathon</category>
         
       </item>
     

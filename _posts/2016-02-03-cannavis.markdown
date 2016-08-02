@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "CannaVis"
+date:   2016-07-08 15:08:10 -0500
+img: img/portfolio/CannaVis.png
+modalID: modalCannaVis
+category: D3
+---
+For a front-end project, I created [CannaVis][flat-icons-link]{:target="_blank"} to utilize data visualization and begin learning D3.
+
+CannaVis is a tool that helps cannabis businesses make better decisions through better understanding of data.
+
+[flat-icons-link]: https://github.com/dropTheNon/front-end-hackathon
