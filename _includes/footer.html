@@ -3,12 +3,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>{{ site.address_street }}
-                        <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
-                </div>
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-md-4 col-md-offset-4">
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         {% if site.facebook_username %}
@@ -52,10 +47,6 @@
                         </li>
                         {% endif %}
                     </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>About {{ site.title }}</h3>
-                    <p><a href="https://www.linkedin.com/in/joshmcbroom" target="_blank">Josh McBroom</a> is an entrepreneurially-inclined full-stack developer, looking for a new challenge.</p>
                 </div>
             </div>
         </div>

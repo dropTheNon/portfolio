@@ -16,6 +16,9 @@
     <!-- Freelancer Theme CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/1.1.0/css/freelancer.min.css">
 
+    <!-- Roboto Font, designed by Christian Robertson -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <link rel="canonical" href="http://yourdomain.com/hackathon/2014/04/15/gropher.html">
 
     <link rel="alternate" type="application/rss+xml" title="Josh McBroom" href="http://yourdomain.com /feed.xml ">
@@ -64,8 +67,11 @@
                 <li class="page-scroll">
                     <a href="#about">About</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                <li>
+                    <a href="https://drive.google.com/file/d/0B-l2MEUF8uaZZElzUWhfZHh6Nk0/view?usp=sharing">Resume</a>
+                </li>
+                <li>
+                    <a href="mailto:mcbroomjc@gmail.com">Contact</a>
                 </li>
             </ul>
         </div>
@@ -82,7 +88,7 @@
             <div class="col-lg-12">
                 <div id="profilePic" class="img-responsive"></div>
                 <div class="intro-text">
-                    <span class="name">Josh McBroom</span>
+                    <span class="name" id="mainName">Josh McBroom</span>
                     <hr id="star-light" class="star-light">
                     <span class="skills">User-Focused Full-Stack Developer
 </span>
@@ -98,7 +104,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Projects</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -111,7 +117,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/magicButton.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/magicButton.png" class="img-responsive portfolioImages" alt="">
                         </a>
                     </div>
                 
@@ -122,7 +128,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/ensembleNews.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/ensembleNews.png" class="img-responsive portfolioImages" alt="">
                         </a>
                     </div>
                 
@@ -133,7 +139,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/squeakyWheel.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/squeakyWheel.png" class="img-responsive portfolioImages" alt="">
                         </a>
                     </div>
                 
@@ -144,7 +150,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/CannaVis.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/CannaVis.png" class="img-responsive portfolioImages" alt="">
                         </a>
                     </div>
                 
@@ -155,7 +161,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/grassRoots.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/grassRoots.png" class="img-responsive portfolioImages" alt="">
                         </a>
                     </div>
                 
@@ -166,7 +172,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/gropher.png" class="img-responsive" alt="">
+                            <img src="/img/portfolio/gropher.png" class="img-responsive portfolioImages" alt="">
                         </a>
                     </div>
                 
@@ -247,18 +253,18 @@
                 <!-- </div>
             </div> -->
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-2">
-                    <a href="https://resume.creddle.io/resume/brq8dfmevi4" target="_blank"><button class="btn btn-success btn-lg">View Resume</button></a>
+                <!-- <div class="col-sm-2 col-sm-offset-2">
+                    <a href="https://resume.creddle.io/resume/brq8dfmevi4" target="_blank"><button class="btn btn-success contactButton">View Resume</button></a>
+                </div> -->
+                <div class="col-sm-4 col-sm-offset-2">
+                    <a href="mailto:mcbroomjc@gmail.com" target="_blank"><button class="btn btn-success contactButton">Email Me</button></a>
                 </div>
-                <div class="col-lg-2">
-                    <a href="mailto:mcbroomjc@gmail.com" target="_blank"><button class="btn btn-success btn-lg">Send Email</button></a>
+                <div class="col-sm-4 col-sm-offset-2">
+                    <a href="https://drive.google.com/file/d/0B-l2MEUF8uaZZElzUWhfZHh6Nk0/view?usp=sharing" target="_blank"><button class="btn btn-success contactButton"> Resume </button></a>
                 </div>
-                <div class="col-lg-2">
-                    <a href="https://drive.google.com/file/d/0B-l2MEUF8uaZZElzUWhfZHh6Nk0/view?usp=sharing" target="_blank"><button class="btn btn-success btn-lg">Download Resume</button></a>
-                </div>
-                <div class="col-lg-2">
-                    <a href="https://docs.google.com/document/d/1APAW9kkRHSkaXy9sTTu1tS44jkhouY4FwzSqMAFi4vc/edit?usp=sharing" target="_blank"><button class="btn btn-success btn-lg">Download Plain Resume</button></a>
-                </div>
+                <!-- <div class="col-sm-2">
+                    <a href="https://docs.google.com/document/d/1APAW9kkRHSkaXy9sTTu1tS44jkhouY4FwzSqMAFi4vc/edit?usp=sharing" target="_blank"><button class="btn btn-success contactButton">Download Plain Resume</button></a>
+                </div> -->
             </div>
         </div>
     </section>
@@ -268,12 +274,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>
-                        <br>Seattle, WA 98106</p>
-                </div>
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-md-4 col-md-offset-4">
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         
@@ -301,10 +302,6 @@
                         </li>
                         
                     </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>About Josh McBroom</h3>
-                    <p><a href="https://www.linkedin.com/in/joshmcbroom" target="_blank">Josh McBroom</a> is an entrepreneurially-inclined full-stack developer, looking for a new challenge.</p>
                 </div>
             </div>
         </div>

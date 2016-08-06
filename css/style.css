@@ -7,13 +7,21 @@
   border-radius: 50%;
 }
 
+#profilePic:hover {
+  background-image: url(../img/portfolio/joshExcited.png);
+}
+
+h1, h2, h3, p, a, span, #mainName {
+  font-family: 'Roboto', sans-serif;
+}
+
+.portfolioImages {
+  border: 1px solid black;
+} 
+
 .emailMe {
   text-align: center;
   font-size: 20pt;
-}
-
-#profilePic:hover {
-  background-image: url(../img/portfolio/joshExcited.png);
 }
 
 hr.star-light:after, header, #about {
