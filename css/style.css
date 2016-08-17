@@ -1,3 +1,11 @@
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+  background: #1884bc;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+  color: #1884bc;
+}
+
 #profilePic {
   margin-right: auto;
   margin-left: auto;
@@ -8,11 +16,46 @@
 }
 
 #profilePic:hover {
-  background-image: url(../img/portfolio/joshExcited.png);
+  background-image: url(../img/joshExcited.png);
 }
 
-h1, h2, h3, p, a, span, #mainName {
-  font-family: 'Roboto', sans-serif;
+h1, h2, h3, h4, h5, span, #mainName {
+  font-family: 'Open Sans', sans-serif;
+}
+
+span.skills {
+  font-family: 'Gentium Basic', serif;
+  font-size: 2em;
+}
+
+p, a {
+  font-family: 'Gentium Basic', serif;
+  font-size: 18px;
+}
+
+#joshTitle {
+  font-size: 2em;
+}
+
+.logos {
+  padding-top: 50px;
+}
+
+.node {
+  padding-top: 40px;
+}
+
+.postgres {
+  padding-top: 5px;
+}
+
+.contactButton {
+  width: 100px;
+}
+
+#about {
+  color: black;
+  background-color: white;
 }
 
 .portfolioImages {
@@ -24,7 +67,7 @@ h1, h2, h3, p, a, span, #mainName {
   font-size: 20pt;
 }
 
-hr.star-light:after, header, #about {
+hr.star-light:after, header, #portfolio {
   background-color: #1884bc;
 }
 
@@ -36,10 +79,6 @@ a, a.active, a:active, a:focus, a:hover {
   background: rgba(24, 132, 188, .9);
 }
 
-.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-  background: #1884bc;
-}
-
-.navbar-custom .navbar-nav li a:hover {
-  color: #1884bc;
+#portfolio h2 {
+  color: white;
 }

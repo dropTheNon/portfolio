@@ -6,8 +6,9 @@ img: img/portfolio/gropher.png
 modalID: modalGropher
 category: Hackathon
 ---
-[Gropher][flat-icons-link]{:target="_blank"} was a side project I pitched twice, at Startup Weekend and 3 Day Startup. Gropher was an on-demand grocery-shopping platform, letting users select a store, order ahead, and pick up their order without leaving their car.
 
-For this project, I served as project manager and business developer.
+[Gropher][link]{:target="_blank"} was a side project started at Startup Weekend. Gropher was an on-demand grocery-shopping app, letting users select a store, order ahead, and pick up their order without leaving their car.  For this project, I served as project manager and business developer.
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+Technologies used: HTML, CSS, JavaScript
+
+[link]: https://sellfy.com/p/8Q9P/jV3VZ/

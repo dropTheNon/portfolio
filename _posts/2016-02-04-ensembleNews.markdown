@@ -6,8 +6,9 @@ img: img/portfolio/ensembleNews.png
 modalID: modalEnsembleNews
 category: Hackathon
 ---
-As part of a one-day team hackathon, my team built [Ensemble News][flat-icons-link]{:target="_blank"} - search for any topic and receive relevant articles from numerous publications.
 
-For this project I served as full-stack developer.
+As part of a one-day team hackathon, my team built [Ensemble News][link]{:target="_blank"} - search for any topic and receive relevant articles from numerous publications.  For this project I served as full-stack developer.
 
-[flat-icons-link]: https://github.com/dropTheNon/mean-hackathon
+Technologies used: JavaScript, MongoDB, Express, Angular, Node, and APIs
+
+[link]: https://github.com/dropTheNon/mean-hackathon

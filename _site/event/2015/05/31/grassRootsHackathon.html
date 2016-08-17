@@ -8,13 +8,16 @@
 
     <title>GrassRoots Hackathon</title>
 
-    <meta name="description" content="In May of 2015, I organized Seattle’s first hackathon for cannabis technology, GrassRoots Hackathon. Developers, designers, and “non-technicals” came togethe...">
+    <meta name="description" content="In May of 2015, I organized Seattle’s first hackathon for cannabis technology, GrassRoots Hackathon. As the founder and lead organizer, I was responsible for...">
 
     <!-- Bootswatch Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Freelancer Theme CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/1.1.0/css/freelancer.min.css">
+
+    <!-- Open Sans (h1) & Gentium Basic (p) -->
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Open+Sans" rel="stylesheet">
 
     <!-- Roboto Font, designed by Christian Robertson -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -90,7 +93,7 @@
                 <div class="intro-text">
                     <span class="name" id="mainName">Josh McBroom</span>
                     <hr id="star-light" class="star-light">
-                    <span class="skills">User-Focused Full-Stack Developer
+                    <span class="skills" id="joshTitle">User-Focused Full-Stack Developer
 </span>
                 </div>
             </div>
@@ -99,13 +102,54 @@
 </header>
 
 
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I'm a user-focused Full-Stack Developer who uses my background in customer service and hospitality to make every customer's experience awesome.
+                    Over the past few years, I've begun transitioning from the customer service industry into the technology sector.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Along the way, I've learned a ton by failing at launching two businesses, before successfully organizing Seattle's first hackathon for cannabis technology. I'm currently seeking a junior developer position where I can use my natural strengths to help better solve customers' problems.</p>
+                </div>
+            </div>
+            <div class="techBox">
+                <div class="text-center">
+                    <h3>Technologies I use:</h3>
+                </div>
+                <br />
+                <div class="row">                    
+                    <img src="/img/techLogosHTML5.png" class="col-lg-2 col-lg-offset-1">
+                    <img src="/img/techLogosCSS.png" class="col-lg-2">
+                    <img src="/img/techLogosJS.png" class="col-lg-2">
+                    <img src="/img/techLogosBootstrap.png" class="col-lg-2">
+                    <img src="/img/techLogosRubyOnRails.png" class="col-lg-2">              
+                </div>
+                <div class="row">                     
+                    <img src="/img/techLogosMongoDB.png" class="col-lg-2 col-lg-offset-1 logos">
+                    <img src="/img/techLogosExpress.png" class="col-lg-2 logos">
+                    <img src="/img/techLogosAngular.png" class="col-lg-2">
+                    <img src="/img/techLogosNode.png" class="col-lg-2 node">
+                    <img src="/img/techLogosPostgreSQL.png" class="col-lg-2 postgres">                 
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Projects</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -180,26 +224,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>I'm a customer-focused Full-Stack Developer, used to making every experience awesome. Over the past few years, I've begun transitioning from customer service jobs into the technology sector.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Along the way, I've learned a ton by failing at launching two businesses, before successfully organizing Seattle's first hackathon for cannabis technology. I'm currently seeking a junior developer position where I can use my natural strengths to help better solve customers' problems.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -257,10 +281,10 @@
                     <a href="https://resume.creddle.io/resume/brq8dfmevi4" target="_blank"><button class="btn btn-success contactButton">View Resume</button></a>
                 </div> -->
                 <div class="col-sm-4 col-sm-offset-2">
-                    <a href="mailto:mcbroomjc@gmail.com" target="_blank"><button class="btn btn-success contactButton">Email Me</button></a>
+                    <a href="mailto:mcbroomjc@gmail.com" target="_blank"><button class="btn btn-success btn-lg contactButton">Email Me</button></a>
                 </div>
                 <div class="col-sm-4 col-sm-offset-2">
-                    <a href="https://drive.google.com/file/d/0B-l2MEUF8uaZZElzUWhfZHh6Nk0/view?usp=sharing" target="_blank"><button class="btn btn-success contactButton"> Resume </button></a>
+                    <a href="https://drive.google.com/file/d/0B-l2MEUF8uaZZElzUWhfZHh6Nk0/view?usp=sharing" target="_blank"><button class="btn btn-success btn-lg contactButton"> Resume </button></a>
                 </div>
                 <!-- <div class="col-sm-2">
                     <a href="https://docs.google.com/document/d/1APAW9kkRHSkaXy9sTTu1tS44jkhouY4FwzSqMAFi4vc/edit?usp=sharing" target="_blank"><button class="btn btn-success contactButton">Download Plain Resume</button></a>
@@ -277,16 +301,6 @@
                 <div class="footer-col col-md-4 col-md-offset-4">
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
-                        
-                        <li>
-                            <a href="https://www.facebook.com/Josh.McBroom" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a href="https://twitter.com/JoshuaMcBroom" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        
                         
                         <li>
                             <a href="https://github.com/dropTheNon" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
@@ -339,14 +353,12 @@
                     <div class="modal-body">
                         <h2>MagicButton</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/magicButton.png" class="img-responsive img-centered" alt="">
-                        The project I'm currently working on is [Magic Button][flat-icons-link]{:target="_blank"}, a one-click meal planning and grocery-list-making tool.
+                        <img src="/img/portfolio/magicButton.png" class="img-responsive img-centered portfolioImages" alt="">
+                        The project I'm currently working on is [Magic Button][link]{:target="_blank"}, a one-click meal planning and grocery-list-making app.  List your favorite meals and add the ingredients you need for them - after that, planning your week's meals and making the grocery list is as easy as one click!
 
-List your favorite meals and add the ingredients you need for them - after that, planning your week's meals and making the grocery list is as easy as one click!
+Technologies used: JavaScript, HTML, CSS, Bootstrap, MongoDB, Express, Angular, and Node
 
-Currently under construction.
-
-[flat-icons-link]: https://github.com/dropTheNon/magicButton
+[link]: https://github.com/dropTheNon/magicButton
                         <ul class="list-inline item-details">
                             <li>Category:
                                 <strong>MEAN
@@ -379,12 +391,12 @@ Currently under construction.
                     <div class="modal-body">
                         <h2>Ensemble News</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/ensembleNews.png" class="img-responsive img-centered" alt="">
-                        As part of a one-day team hackathon, my team built [Ensemble News][flat-icons-link]{:target="_blank"} - search for any topic and receive relevant articles from numerous publications.
+                        <img src="/img/portfolio/ensembleNews.png" class="img-responsive img-centered portfolioImages" alt="">
+                        As part of a one-day team hackathon, my team built [Ensemble News][link]{:target="_blank"} - search for any topic and receive relevant articles from numerous publications.  For this project I served as full-stack developer.
 
-For this project I served as full-stack developer.
+Technologies used: JavaScript, MongoDB, Express, Angular, Node, and APIs
 
-[flat-icons-link]: https://github.com/dropTheNon/mean-hackathon
+[link]: https://github.com/dropTheNon/mean-hackathon
                         <ul class="list-inline item-details">
                             <li>Category:
                                 <strong>Hackathon
@@ -417,12 +429,12 @@ For this project I served as full-stack developer.
                     <div class="modal-body">
                         <h2>Squeaky Wheel</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/squeakyWheel.png" class="img-responsive img-centered" alt="">
-                        [SqueakyWheel][flat-icons-link]{:target="_blank"} was a group project we worked on as part of General Assembly's 12-week Web Development Immersive. Our group created the digital version of a complaint box - users can create a complaint about a company or product, or "upvote" an existing complaint, and we send an email or tweet to the appropriate party on their behalf.
+                        <img src="/img/portfolio/squeakyWheel.png" class="img-responsive img-centered portfolioImages" alt="">
+                        [SqueakyWheel][link]{:target="_blank"} was a group class project. Our group created the digital version of a complaint box - users can create a complaint about a company or product, or "upvote" an existing complaint, and we send an email or tweet to the appropriate party on their behalf.  For this project I served as our Project Manager, Git Master, and did back-end development.
 
-For this project I served as our Project Manager and Git Master, as well as doing some back-end work.
+Technologies used: Ruby on Rails, PostgreSQL, D3.js, Cloudinary 
 
-[flat-icons-link]: https://squeakywheel.herokuapp.com
+[link]: https://squeakywheel.herokuapp.com
                         <ul class="list-inline item-details">
                             <li>Category:
                                 <strong>Ruby on Rails
@@ -455,12 +467,12 @@ For this project I served as our Project Manager and Git Master, as well as doin
                     <div class="modal-body">
                         <h2>CannaVis</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/CannaVis.png" class="img-responsive img-centered" alt="">
-                        For a front-end project, I created [CannaVis][flat-icons-link]{:target="_blank"} to utilize data visualization and begin learning D3.
+                        <img src="/img/portfolio/CannaVis.png" class="img-responsive img-centered portfolioImages" alt="">
+                        I created [CannaVis][link]{:target="_blank"} - a tool that helps cannabis businesses make better decisions through better understanding of data - to utilize data visualization and begin learning D3.
 
-CannaVis is a tool that helps cannabis businesses make better decisions through better understanding of data.
+Technologies used: JavaScript, HTML, CSS, D3.js
 
-[flat-icons-link]: https://github.com/dropTheNon/front-end-hackathon
+[link]: https://github.com/dropTheNon/front-end-hackathon
                         <ul class="list-inline item-details">
                             <li>Category:
                                 <strong>D3
@@ -493,10 +505,10 @@ CannaVis is a tool that helps cannabis businesses make better decisions through 
                     <div class="modal-body">
                         <h2>GrassRoots Hackathon</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/grassRoots.png" class="img-responsive img-centered" alt="">
-                        <p>In May of 2015, I organized Seattle’s first hackathon for cannabis technology, <a href="https://grassrootshackathon.com" target="_blank">GrassRoots Hackathon</a>. Developers, designers, and “non-technicals” came together for a weekend of creativity and collaboration as they raced against the clock to try and launch a startup in a weekend.</p>
+                        <img src="/img/portfolio/grassRoots.png" class="img-responsive img-centered portfolioImages" alt="">
+                        <p>In May of 2015, I organized Seattle’s first hackathon for cannabis technology, <a href="https://grassrootshackathon.com" target="_blank">GrassRoots Hackathon</a>. As the founder and lead organizer, I was responsible for the entirety of the event, including securing sponsors and venue, finding mentors and judges, and everything else that goes into organizing a weekend-long event.</p>
 
-<p>As the founder and lead organizer, I was responsible for the entirety of the event, including securing sponsors and venue, finding mentors and judges, and everything else that goes into organizing a weekend-long event.</p>
+<p>Technologies used: WordPress, BrownPaperTickets.com, PayPal, Google Drive, Google Hangouts</p>
 
 
                         <ul class="list-inline item-details">
@@ -531,10 +543,10 @@ CannaVis is a tool that helps cannabis businesses make better decisions through 
                     <div class="modal-body">
                         <h2>Gropher</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/gropher.png" class="img-responsive img-centered" alt="">
-                        <p><a href="https://sellfy.com/p/8Q9P/jV3VZ/" target="_blank">Gropher</a> was a side project I pitched twice, at Startup Weekend and 3 Day Startup. Gropher was an on-demand grocery-shopping platform, letting users select a store, order ahead, and pick up their order without leaving their car.</p>
+                        <img src="/img/portfolio/gropher.png" class="img-responsive img-centered portfolioImages" alt="">
+                        <p><a href="https://sellfy.com/p/8Q9P/jV3VZ/" target="_blank">Gropher</a> was a side project started at Startup Weekend. Gropher was an on-demand grocery-shopping app, letting users select a store, order ahead, and pick up their order without leaving their car.  For this project, I served as project manager and business developer.</p>
 
-<p>For this project, I served as project manager and business developer.</p>
+<p>Technologies used: HTML, CSS, JavaScript</p>
 
 
                         <ul class="list-inline item-details">
