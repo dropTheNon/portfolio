@@ -11,4 +11,4 @@ As part of a one-day team hackathon, my team built [Ensemble News][link]{:target
 
 Technologies used: JavaScript, MongoDB, Express, Angular, Node, and APIs
 
-[link]: https://github.com/dropTheNon/mean-hackathon
+[link]: http://ensemble-news.herokuapp.com

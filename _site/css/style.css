@@ -6,6 +6,9 @@
   color: #1884bc;
 }
 
+.btnClass {
+}
+
 #profilePic {
   margin-right: auto;
   margin-left: auto;
@@ -37,6 +40,10 @@ p, a {
   font-size: 2em;
 }
 
+.bootstrapLogo {
+  padding-top: 30px;
+}
+
 .logos {
   padding-top: 50px;
 }
@@ -50,7 +57,7 @@ p, a {
 }
 
 .contactButton {
-  width: 100px;
+  /*width: 100px;*/
 }
 
 #about {
